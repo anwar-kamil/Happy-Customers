@@ -1,13 +1,16 @@
 import pandas as pd
+import io
 
 
 class ExcelLoader:
-    def __init__(self, file_path):
-        self.file_path = file_path
+    def __init__(self, file):
+        self.file = file
 
-    def load_data(self):
+    async def load_data(self):
         try:
-            df = pd.read_csv(self.file_path)
+            contents = await self.file.read()
+            file_obj = io.BytesIO(contents)
+            df = pd.read_csv(file_obj)
             return df
         except Exception as e:
             print(f"Error loading data from Excel: {e}")

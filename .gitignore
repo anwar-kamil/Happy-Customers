@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
 
 Happy_Customers_App/.idea
+
+Happy_Customers_App/__pycache__/*
+
+Happy_Customers_App/data_pipeline/*

@@ -1,19 +1,17 @@
-from fastapi import FastAPI
-from data_pipeline.data_elt import ExcelLoader
-from data_pipeline.data_eda import AutoEda
+from service import Service
 import uvicorn
+from fastapi import FastAPI, UploadFile
 
 
 app = FastAPI()
 
 
-@app.post("/xgboost")
-async def root():
+@app.post("/api/classify")
+async def classify(file: UploadFile):
     try:
-        loader = ExcelLoader('ACME-HappinessSurvey2020.csv')
-        data = ExcelLoader.load_data(loader)
-        eda_obj = AutoEda(data)
-        eda_obj.get_eda()
+        service = Service(file)
+        data = await service.get_result()
+        return True
     except Exception as e:
         return {"error": e}
 
