@@ -1,0 +1,9 @@
+digest: b1b69c18
+name: dataset
+profile: '{"num_rows": 22, "num_elements": 88}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "X2"}, {"type": "long", "name":
+  "X3"}, {"type": "long", "name": "X4"}, {"type": "long", "name": "X5"}]}'
+source: '{"tags": {"mlflow.user": "Cantt Computer", "mlflow.source.name": "C:\\Users\\Cantt
+  Computer\\.conda\\envs\\Happy_Customers_App\\lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

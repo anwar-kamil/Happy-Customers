@@ -1,0 +1,17 @@
+{
+  "XGBClassifier_score-10_X_test-10": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-11_X_test-11": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-12_X_test-12": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-13_X_test-13": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-14_X_test-14": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-15_X_test-15": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-2_X_test-2": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-3_X_test-3": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-4_X_test-4": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-5_X_test-5": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-6_X_test-6": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-7_X_test-7": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-8_X_test-8": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-9_X_test-9": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score_X_test": "XGBClassifier.score(X=X_test, y=y_test)"
+}

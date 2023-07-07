@@ -1,0 +1,9 @@
+digest: 926ab001
+name: dataset
+profile: '{"features_shape": [71, 3], "features_size": 213, "features_nbytes": 852}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 3]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Cantt Computer", "mlflow.source.name": "C:\\Users\\Cantt
+  Computer\\.conda\\envs\\Happy_Customers_App\\lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

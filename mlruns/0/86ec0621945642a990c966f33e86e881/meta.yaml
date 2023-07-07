@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Cantt%20Computer/Documents/Apziva/Projects/Happy%20Customers/mlruns/0/86ec0621945642a990c966f33e86e881/artifacts
+end_time: 1688303760599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86ec0621945642a990c966f33e86e881
+run_name: dashing-snipe-471
+run_uuid: 86ec0621945642a990c966f33e86e881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688303754460
+status: 3
+tags: []
+user_id: Cantt Computer

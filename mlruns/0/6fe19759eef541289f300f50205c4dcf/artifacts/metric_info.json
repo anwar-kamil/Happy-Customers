@@ -1,0 +1,7 @@
+{
+  "XGBClassifier_score-2_X_test-2": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-3_X_test-3": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-4_X_test-4": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score-5_X_test-5": "XGBClassifier.score(X=X_test, y=y_test)",
+  "XGBClassifier_score_X_test": "XGBClassifier.score(X=X_test, y=y_test)"
+}

@@ -1,0 +1,23 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.11
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 1.7.3
+mlflow_version: 2.4.1
+model_uuid: 7c2c0f45696d4a1190474e8ef4928f3d
+run_id: 3f6b79af7bc6461eb78ca2751ca9b0e8
+signature:
+  inputs: '[{"type": "long", "name": "X2"}, {"type": "long", "name": "X3"}, {"type":
+    "long", "name": "X5"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+utc_time_created: '2023-07-06 12:38:36.259240'
